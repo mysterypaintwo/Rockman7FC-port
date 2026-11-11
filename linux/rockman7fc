@@ -1,0 +1,10 @@
+#!/bin/bash
+# Rockman 7 FC — Linux launcher (starts the game)
+set -u
+SELF="$(readlink -f "${BASH_SOURCE[0]}")"
+PORT_PLATFORM="linux"
+PORT_RESOURCES="$(dirname "$SELF")"
+PORT_SUPPORT_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/rockman7fc"
+# shellcheck disable=SC1091
+. "$PORT_RESOURCES/launcher-core.sh"
+port_main play

@@ -1,0 +1,25 @@
+LIBRARY pxtone
+EXPORTS
+    pxtone_GetDirectSound         = px_stub_0
+    pxtone_GetLastError           = px_stub_1
+    pxtone_GetQuality             = px_stub_2
+    pxtone_Noise_Create           = px_stub_3
+    pxtone_Noise_Release          = px_stub_4
+    pxtone_Ready                  = px_stub_5
+    pxtone_Release                = px_stub_6
+    pxtone_Reset                  = px_stub_7
+    pxtone_Tune_Fadeout           = px_stub_8
+    pxtone_Tune_GetComment        = px_stub_9
+    pxtone_Tune_GetInformation    = px_stub_10
+    pxtone_Tune_GetName           = px_stub_11
+    pxtone_Tune_GetPlayMeas       = px_stub_12
+    pxtone_Tune_GetRepeatMeas     = px_stub_13
+    pxtone_Tune_IsStreaming       = px_stub_14
+    pxtone_Tune_Load              = px_stub_15
+    pxtone_Tune_Read              = px_stub_16
+    pxtone_Tune_Release           = px_stub_17
+    pxtone_Tune_SetLoop           = px_stub_18
+    pxtone_Tune_SetVolume         = px_stub_19
+    pxtone_Tune_Start             = px_stub_20
+    pxtone_Tune_Stop              = px_stub_21
+    pxtone_Tune_Vomit             = px_stub_22

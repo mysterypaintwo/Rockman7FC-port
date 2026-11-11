@@ -1,0 +1,10 @@
+#!/bin/bash
+# Rockman 7 FC — macOS launcher (starts the game)
+set -u
+RES="$(cd "$(dirname "${BASH_SOURCE[0]}")/../Resources" && pwd)"
+PORT_PLATFORM="macos"
+PORT_RESOURCES="$RES"
+PORT_SUPPORT_DIR="$HOME/Library/Application Support/Rockman7FC"
+# shellcheck disable=SC1091
+. "$RES/launcher-core.sh"
+port_main play
